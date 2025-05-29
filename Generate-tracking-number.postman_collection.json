@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "1cdb8041-1ca2-4e15-8041-4d2fdf00b729",
+		"name": "Generate-tracking-number",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40812980"
+	},
+	"item": [
+		{
+			"name": "AWS_request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"origin_country_id\":\"MY\",\r\n    \"destination_country_id\":\"SG\",\r\n    \"weight\":1.120,\r\n    \"created_at\":\"2025-05-29T04:53:57.0158476+05:30\",\r\n    \"customer_id\":\"de619854-b59b-425e-9db4-943979e1bd49\",\r\n    \"customer_name\":\"REDBOX LOGISTICS\",\r\n    \"customer_slug\":\"redbox-logistics\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://51.20.91.146:8080/api/next-tracking-number",
+					"protocol": "http",
+					"host": [
+						"51",
+						"20",
+						"91",
+						"146"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"next-tracking-number"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
