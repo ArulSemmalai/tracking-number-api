@@ -69,7 +69,7 @@ A scalable, concurrency-safe Spring Boot microservice for generating globally un
 
 **🚀 1. Clone the project**
 
-git clone https://github.com/your-repo/tracking-number-api.git
+git clone https://github.com/ArulSemmalai/tracking-number-api
 
 cd tracking-number-api
 
