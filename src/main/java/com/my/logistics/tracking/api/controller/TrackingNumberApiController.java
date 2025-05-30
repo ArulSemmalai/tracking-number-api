@@ -21,7 +21,7 @@ public class TrackingNumberApiController {
     public TrackingNumberApiController(TrackingNumberService trackingNumberService) {
         this.trackingNumberService = trackingNumberService;
     }
-    @GetMapping("/next-tracking-number")
+    @PostMapping("/next-tracking-number")
     public ResponseEntity<TrackingNumberResponse> getTrackingNumber(@Valid @RequestBody TrackingNumberRequest trackingNumberRequest){
         return ResponseEntity.ok(trackingNumberService.generateTrackingNumber(trackingNumberRequest));
     }
