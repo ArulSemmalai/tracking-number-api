@@ -10,7 +10,7 @@ A scalable, concurrency-safe Spring Boot microservice for generating globally un
 [http://51.20.91.146:8080/api/next-tracking-number](http://51.20.91.146:8080/api/next-tracking-number)
 
 **Method:**  
-`GET`
+`POST`
 
 **Request Payload (Required):**
 - `origin_country_id`
