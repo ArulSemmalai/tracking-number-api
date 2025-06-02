@@ -94,7 +94,7 @@ Use Postman and request payload added above.
 
 **🧠 How it Works**
 
-The TrackingNumberService generates a tracking number using slug, UUID, and counter.
+The TrackingNumberService generates a tracking number using slug, Timestamp, and customer Id.
 
 A Redis Lua script is executed to check if the number is unique and atomically store it.
 
